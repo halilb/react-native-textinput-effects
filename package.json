@@ -1,0 +1,27 @@
+{
+  "name": "react-native-textinput-effects",
+  "version": "0.0.1",
+  "description": "TextInput effects for react native",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "react-component",
+    "react-native",
+    "text input",
+    "textinput",
+    "animation",
+    "ios",
+    "android"
+  ],
+  "main": "lib/index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/halilb/react-native-textinput-effects.git"
+  },
+  "bugs": {
+    "url": "https://github.com/halilb/react-native-textinput-effects/issues"
+  },
+  "author": "Halil Bilir <hbilir@gmail.com>",
+  "homepage": "https://github.com/halilb/react-native-textinput-effects#readme"
+}

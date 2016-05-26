@@ -1,0 +1,14 @@
+// extended using airbnb's eslint config
+// see: https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+
+  "rules": {
+    "no-alert": 0,
+    "no-use-before-define": 0,
+    "no-return-assign": 0,
+    "react/jsx-closing-bracket-location": 0,
+    "react/jsx-no-bind": 0
+  }
+}
