@@ -1,25 +1,36 @@
 import React, { Component } from 'react';
 import {
-  View,
+  Dimensions,
+  ScrollView,
   StyleSheet,
 } from 'react-native';
 
-import TextInputEffects from 'react-native-textinput-effects';
+import { Kaede } from 'react-native-textinput-effects';
+
+const screenWidth = Dimensions.get('window').width;
 
 export default class TextInputEffectsExample extends Component {
 
   render() {
     return (
-      <View style={styles.container}>
-        <TextInputEffects />
-      </View>
+      <ScrollView style={styles.container} keyboardDismissMode={'on-drag'}>
+        <Kaede
+          placeholder={'First Name'}
+          width={screenWidth}
+        />
+        <Kaede
+          placeholder={'Second Name'}
+          width={screenWidth}
+        />
+      </ScrollView>
     );
   }
 }
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingTop: 54,
-    paddingLeft: 16,
+    paddingTop: 100,
+    backgroundColor: '#F9F7F6',
   },
 });
