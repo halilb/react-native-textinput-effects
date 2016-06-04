@@ -12,11 +12,11 @@ export default class TextInputEffectsExample extends Component {
     return (
       <ScrollView style={styles.container} keyboardDismissMode={'on-drag'}>
         <Kaede
-          placeholder={'First Name'}
+          label={'Name'}
           value={'halil'}
         />
         <Kaede
-          placeholder={'Second Name'}
+          label={'Number'}
           style={{ marginTop: 8 }}
           labelStyle={{
             color: 'red',
@@ -26,6 +26,7 @@ export default class TextInputEffectsExample extends Component {
             color: 'white',
             backgroundColor: 'grey',
           }}
+          keyboardType="numeric"
         />
       </ScrollView>
     );
