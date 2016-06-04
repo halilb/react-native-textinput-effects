@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
 import {
-  Dimensions,
   ScrollView,
   StyleSheet,
 } from 'react-native';
 
 import { Kaede } from 'react-native-textinput-effects';
-
-const screenWidth = Dimensions.get('window').width;
 
 export default class TextInputEffectsExample extends Component {
 
@@ -16,11 +13,19 @@ export default class TextInputEffectsExample extends Component {
       <ScrollView style={styles.container} keyboardDismissMode={'on-drag'}>
         <Kaede
           placeholder={'First Name'}
-          width={screenWidth}
+          value={'halil'}
         />
         <Kaede
           placeholder={'Second Name'}
-          width={screenWidth}
+          style={{ marginTop: 8 }}
+          labelStyle={{
+            color: 'red',
+            backgroundColor: 'yellow',
+          }}
+          inputStyle={{
+            color: 'white',
+            backgroundColor: 'grey',
+          }}
         />
       </ScrollView>
     );
