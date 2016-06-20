@@ -4,7 +4,10 @@ import {
   StyleSheet,
 } from 'react-native';
 
-import { Kaede } from 'react-native-textinput-effects';
+import {
+  Kaede,
+  Hoshi,
+} from 'react-native-textinput-effects';
 
 export default class TextInputEffectsExample extends Component {
 
@@ -13,20 +16,23 @@ export default class TextInputEffectsExample extends Component {
       <ScrollView style={styles.container} keyboardDismissMode={'on-drag'}>
         <Kaede
           label={'Name'}
-          value={'halil'}
         />
         <Kaede
           label={'Number'}
-          style={{ marginTop: 8 }}
           labelStyle={{
-            color: 'red',
-            backgroundColor: 'yellow',
+            color: '#990fe2',
+            backgroundColor: '#f5f785',
           }}
           inputStyle={{
             color: 'white',
-            backgroundColor: 'grey',
+            backgroundColor: '#d693f9',
           }}
           keyboardType="numeric"
+        />
+        <Hoshi
+          label={'Street'}
+          backgroundColor={'#F9F7F6'}
+          borderColor={'#00ffaa'}
         />
       </ScrollView>
     );
