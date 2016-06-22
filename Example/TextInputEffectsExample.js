@@ -8,6 +8,7 @@ import {
   Kaede,
   Hoshi,
   Jiro,
+  Isao,
 } from 'react-native-textinput-effects';
 
 export default class TextInputEffectsExample extends Component {
@@ -15,9 +16,6 @@ export default class TextInputEffectsExample extends Component {
   render() {
     return (
       <ScrollView style={styles.container} keyboardDismissMode={'on-drag'}>
-        <Kaede
-          label={'Name'}
-        />
         <Kaede
           label={'Number'}
           labelStyle={{
@@ -39,9 +37,9 @@ export default class TextInputEffectsExample extends Component {
           label={'Cat\'s name'}
           borderColor={'#00ffaa'}
         />
-        <Jiro
-          label={'Dog\'s name'}
-          borderColor={'#6a7989'}
+        <Isao
+          label={'Middle name'}
+          borderColor={'#da7071'}
         />
       </ScrollView>
     );
@@ -51,7 +49,7 @@ export default class TextInputEffectsExample extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingTop: 100,
+    paddingTop: 24,
     backgroundColor: '#F9F7F6',
   },
 });
