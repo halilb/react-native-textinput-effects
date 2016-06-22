@@ -7,6 +7,7 @@ import {
 import {
   Kaede,
   Hoshi,
+  Jiro,
 } from 'react-native-textinput-effects';
 
 export default class TextInputEffectsExample extends Component {
@@ -33,6 +34,14 @@ export default class TextInputEffectsExample extends Component {
           label={'Street'}
           backgroundColor={'#F9F7F6'}
           borderColor={'#00ffaa'}
+        />
+        <Jiro
+          label={'Cat\'s name'}
+          borderColor={'#00ffaa'}
+        />
+        <Jiro
+          label={'Dog\'s name'}
+          borderColor={'#6a7989'}
         />
       </ScrollView>
     );
