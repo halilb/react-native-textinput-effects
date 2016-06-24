@@ -10,6 +10,7 @@ import {
   Jiro,
   Isao,
   Madoka,
+  Akira,
 } from 'react-native-textinput-effects';
 
 export default class TextInputEffectsExample extends Component {
@@ -43,8 +44,12 @@ export default class TextInputEffectsExample extends Component {
           borderColor={'#da7071'}
         />
         <Madoka
-          style={{ marginTop: 16 }}
+          style={{ marginTop: 8 }}
           label={'Weight'}
+          borderColor={'#7A7593'}
+        />
+        <Akira
+          label={'Maiden Name'}
           borderColor={'#7A7593'}
         />
       </ScrollView>
