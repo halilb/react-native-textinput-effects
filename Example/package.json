@@ -8,6 +8,7 @@
   "dependencies": {
     "react": "^15.0.2",
     "react-native": "^0.26.2",
-    "react-native-textinput-effects": "file:../"
+    "react-native-textinput-effects": "file:../",
+    "react-native-vector-icons": "^2.0.3"
   }
 }
