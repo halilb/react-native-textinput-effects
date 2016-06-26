@@ -14,6 +14,7 @@ import {
   Madoka,
   Akira,
   Hideo,
+  Kohana,
 } from 'react-native-textinput-effects';
 
 export default class TextInputEffectsExample extends Component {
@@ -61,9 +62,17 @@ export default class TextInputEffectsExample extends Component {
           borderColor={'#7A7593'}
         />
         <Hideo
+          style={styles.input}
           iconClass={FontAwesomeIcon}
           iconName={'envelope'}
           iconColor={'white'}
+        />
+        <Kohana
+          style={styles.input}
+          label={'Phone'}
+          iconClass={FontAwesomeIcon}
+          iconName={'phone'}
+          iconColor={'#ddd'}
         />
       </ScrollView>
     );
