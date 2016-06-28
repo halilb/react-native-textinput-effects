@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import {
   ScrollView,
   StyleSheet,
+  Text,
+  View,
 } from 'react-native';
 
 import FontAwesomeIcon from 'react-native-vector-icons/FontAwesome';
@@ -16,6 +18,7 @@ import {
   Hideo,
   Kohana,
   Makiko,
+  Sae,
 } from 'react-native-textinput-effects';
 
 export default class TextInputEffectsExample extends Component {
@@ -23,6 +26,20 @@ export default class TextInputEffectsExample extends Component {
   render() {
     return (
       <ScrollView style={styles.container} keyboardDismissMode={'on-drag'}>
+        <View style={[styles.card, { backgroundColor: '#8781bd' }]}>
+          <Text style={styles.title}>Sae</Text>
+          <Sae
+            label={'Email Address'}
+            iconClass={FontAwesomeIcon}
+            iconName={'pencil'}
+            iconColor={'white'}
+          />
+          <Sae
+            style={styles.input}
+            label={'Invitation Code'}
+            iconClass={FontAwesomeIcon}
+          />
+        </View>
         <Kaede
           style={styles.input}
           label={'Number'}
@@ -93,7 +110,17 @@ const styles = StyleSheet.create({
     paddingTop: 24,
     backgroundColor: '#F9F7F6',
   },
+  card: {
+    height: 180,
+  },
   input: {
     marginTop: 4,
+  },
+  title: {
+    textAlign: 'center',
+    color: 'white',
+    fontSize: 20,
+    fontWeight: 'bold',
+    opacity: 0.8,
   },
 });
