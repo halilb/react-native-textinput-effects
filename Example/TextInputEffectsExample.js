@@ -15,6 +15,7 @@ import {
   Akira,
   Hideo,
   Kohana,
+  Makiko,
 } from 'react-native-textinput-effects';
 
 export default class TextInputEffectsExample extends Component {
@@ -73,6 +74,13 @@ export default class TextInputEffectsExample extends Component {
           iconClass={FontAwesomeIcon}
           iconName={'phone'}
           iconColor={'#ddd'}
+        />
+        <Makiko
+          style={styles.input}
+          label={'Comment'}
+          iconClass={FontAwesomeIcon}
+          iconName={'comment'}
+          iconColor={'white'}
         />
       </ScrollView>
     );
