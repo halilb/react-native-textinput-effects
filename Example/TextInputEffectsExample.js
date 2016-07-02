@@ -25,7 +25,10 @@ export default class TextInputEffectsExample extends Component {
 
   render() {
     return (
-      <ScrollView style={styles.container} keyboardDismissMode={'on-drag'}>
+      <ScrollView
+        style={styles.container}
+        contentContainerStyle={styles.content}
+      >
         <View style={[styles.card, { backgroundColor: '#8781bd' }]}>
           <Text style={styles.title}>Sae</Text>
           <Sae
@@ -109,6 +112,10 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingTop: 24,
     backgroundColor: '#F9F7F6',
+  },
+  content: {
+    // not cool but enough to make all inputs visible when keyboard is active
+    paddingBottom: 300,
   },
   card: {
     height: 180,
