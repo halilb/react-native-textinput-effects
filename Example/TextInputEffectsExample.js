@@ -19,6 +19,7 @@ import {
   Kohana,
   Makiko,
   Sae,
+  Fumi,
 } from 'react-native-textinput-effects';
 
 export default class TextInputEffectsExample extends Component {
@@ -61,6 +62,13 @@ export default class TextInputEffectsExample extends Component {
           label={'Street'}
           backgroundColor={'#F9F7F6'}
           borderColor={'#00ffaa'}
+        />
+        <Fumi
+          style={styles.input}
+          label={'Degree'}
+          iconClass={FontAwesomeIcon}
+          iconName={'graduation-cap'}
+          iconColor={'#00aeef'}
         />
         <Jiro
           style={styles.input}
