@@ -197,7 +197,7 @@ export default class TextInputEffectsExample extends Component {
           <Makiko
             label={'Destination'}
             iconClass={FontAwesomeIcon}
-            iconName={'plane'}
+            iconName={'heart'}
             iconColor={'white'}
             inputStyle={{ color: '#db786d' }}
           />
