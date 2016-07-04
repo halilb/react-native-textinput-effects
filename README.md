@@ -48,6 +48,8 @@ Follow those steps to run the example:
 2. Install dependencies `npm install``
 3. Follow [official instructions](https://facebook.github.io/react-native/docs/getting-started.html) to run the example project in a simulator or device.
 
+You can also check out the example library without any installation on [Appetize.io](https://appetize.io/app/uhgu1wc1htqfcf7bp812gevr2r?device=iphone6s&scale=75&orientation=portrait&osVersion=9.3)!
+
 ## Input Types
 
 ### Sae
