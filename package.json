@@ -1,6 +1,6 @@
 {
   "name": "react-native-textinput-effects",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "TextInput effects for react native",
   "license": "MIT",
   "keywords": [
@@ -9,7 +9,9 @@
     "react-native",
     "text input",
     "textinput",
+    "textfield",
     "animation",
+    "animated",
     "ios",
     "android"
   ],
