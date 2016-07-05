@@ -1,6 +1,6 @@
 # React Native Textinput Effects
 
-I've come across with [those beautiful](http://tympanus.net/Development/TextInputEffects) text inputs created and [blogged](http://tympanus.net/codrops/2015/01/08/inspiration-text-input-effects) by **Coderops** and wanted to port them to react-native. Some of those text fields are now ready to use in iOS and android thanks to react-native.
+I've come across with [those beautiful](http://tympanus.net/Development/TextInputEffects) text inputs created and [blogged](http://tympanus.net/codrops/2015/01/08/inspiration-text-input-effects) by **Codrops** and wanted to port them to react-native. Some of those text fields are now ready to use in iOS and android thanks to react-native.
 
 There is also a native iOS library called [TextFieldEffects](https://github.com/raulriera/TextFieldEffects) which has built some of them in Swift.
 
