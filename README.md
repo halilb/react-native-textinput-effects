@@ -6,7 +6,7 @@ There is also a native iOS library called [TextFieldEffects](https://github.com/
 
 ![](screenshots/full.gif)
 
-## Installation 
+## Installation
 `$ npm install react-native-textinput-effects --save`
 
 You also need to install [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons) if you'd like to use a TextInputEffect component with an icon. Please check out [Installation section](https://github.com/oblador/react-native-vector-icons#installation) on that project.
@@ -21,6 +21,7 @@ You also need to install [react-native-vector-icons](https://github.com/oblador/
 |**`style`**|View Style Object|Applied to the root container of the input.|
 |**`labelStyle`**|View Style Object|Applied to the container of the label view.|
 |**`inputStyle`**|Text Style Object|Applied to the TextInput component.|
+|**`value`**|String|Override the value of the field. Usually only used with `onChangeText` and manual state handling.|
 
 You can also use [TextInput Props](https://facebook.github.io/react-native/docs/textinput.html#props). They'll be passed into TextInput component.
 
