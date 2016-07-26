@@ -21,6 +21,8 @@ You also need to install [react-native-vector-icons](https://github.com/oblador/
 |**`style`**|View Style Object|Applied to the root container of the input.|
 |**`labelStyle`**|View Style Object|Applied to the container of the label view.|
 |**`inputStyle`**|Text Style Object|Applied to the TextInput component.|
+|**`value`**|String|This value will be applied to the TextInput and change it's state on every render. Use this prop if you want a [Controlled Component](https://facebook.github.io/react/docs/forms.html#controlled-components).|
+|**`defaultValue`**|String|If you want to initialize the component with a non-empty value, you can supply a defaultValue prop. This prop creates an [Uncontrolled Component](https://facebook.github.io/react/docs/forms.html#uncontrolled-components) and is only used during initial render.|
 
 You can also use [TextInput Props](https://facebook.github.io/react-native/docs/textinput.html#props). They'll be passed into TextInput component.
 
@@ -35,7 +37,6 @@ This component needs `Icon` component from `react-native-vector-icons` to operat
 |**`iconClass`**|Object|The Icon component class you've imported from react-native-vector-icons.|
 |**`iconName`**|String|Name of the icon that is passed to Icon component.|
 |**`iconColor`**|String|Applied to the container of the label view.|
-|**`inputStyle`**|Text Style Object|Applied to the TextInput component.|
 
 
 ## Example

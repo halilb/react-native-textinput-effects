@@ -34,6 +34,7 @@ export default class TextInputEffectsExample extends Component {
           <Text style={styles.title}>Kaede</Text>
           <Kaede
             label={'Website'}
+            defaultValue={'Github'}
           />
           <Kaede
             style={styles.input}
