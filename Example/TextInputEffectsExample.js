@@ -102,6 +102,8 @@ export default class TextInputEffectsExample extends Component {
           <Text style={styles.title}>Fumi</Text>
           <Fumi
             label={'Course Name'}
+            labelStyle={{ color: '#a3a3a3' }}
+            inputStyle={{ color: '#f95a25' }}
             iconClass={FontAwesomeIcon}
             iconName={'university'}
             iconColor={'#f95a25'}
