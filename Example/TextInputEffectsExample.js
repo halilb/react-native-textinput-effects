@@ -22,6 +22,12 @@ import {
   Fumi,
 } from 'react-native-textinput-effects';
 
+// eslint-disable-next-line no-console
+console.ignoredYellowBox = [
+  // https://github.com/facebook/react-native/issues/9093
+  'Warning: You are manually calling a React.PropTypes validation',
+];
+
 export default class TextInputEffectsExample extends Component {
 
   render() {
