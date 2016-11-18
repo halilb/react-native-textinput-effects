@@ -75,12 +75,12 @@ export default class TextInputEffectsExample extends Component {
           <Hoshi
             label={'Town'}
             borderColor={'#b76c94'}
-            backgroundColor={'#F9F7F6'}
+            maskColor={'#F9F7F6'}
           />
           <Hoshi
             style={styles.input}
             label={'Street'}
-            backgroundColor={'#F9F7F6'}
+            maskColor={'#F9F7F6'}
             borderColor={'#7ac1ba'}
           />
         </View>
