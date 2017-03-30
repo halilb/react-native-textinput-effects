@@ -24,7 +24,12 @@ You also need to install [react-native-vector-icons](https://github.com/oblador/
 |**`value`**|String|This value will be applied to the TextInput and change it's state on every render. Use this prop if you want a [Controlled Component](https://facebook.github.io/react/docs/forms.html#controlled-components).|
 |**`defaultValue`**|String|If you want to initialize the component with a non-empty value, you can supply a defaultValue prop. This prop creates an [Uncontrolled Component](https://facebook.github.io/react/docs/forms.html#uncontrolled-components) and is only used during initial render.|
 
-You can also use [TextInput Props](https://facebook.github.io/react-native/docs/textinput.html#props). They'll be passed into TextInput component.
+You can also use default [TextInput Props](https://facebook.github.io/react-native/docs/textinput.html#props). They'll be passed into TextInput component. E.g., use `TextInput`'s `onChange` prop to be notified on text changes.
+```js
+<Sae
+  onChangeText={(text) => { this.setState({textValue: text}) }
+/>
+```
 
 ### Props for TextInputEffects with an Icon
 
