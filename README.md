@@ -196,6 +196,7 @@ const jiroInput = (
     // this is used as active and passive border color
     borderColor={'#9b537a'}
     inputStyle={{ color: 'white' }}
+    useNativeDriver={true}
   />
 );
 ```
