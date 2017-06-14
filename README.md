@@ -76,6 +76,7 @@ const saeInput = (
     // TextInput props
     autoCapitalize={'none'}
     autoCorrect={false}
+    useNativeDriver={true}
   />
 );
 ```
