@@ -76,6 +76,7 @@ const saeInput = (
     // TextInput props
     autoCapitalize={'none'}
     autoCorrect={false}
+    useNativeDriver={true}
   />
 );
 ```
@@ -116,6 +117,7 @@ const kohanaInput = (
     iconColor={'#f4d29a'}
     labelStyle={{ color: '#91627b' }}
     inputStyle={{ color: '#91627b' }}
+    useNativeDriver={true}
   />
 );
 ```
@@ -194,6 +196,7 @@ const jiroInput = (
     // this is used as active and passive border color
     borderColor={'#9b537a'}
     inputStyle={{ color: 'white' }}
+    useNativeDriver={true}
   />
 );
 ```
