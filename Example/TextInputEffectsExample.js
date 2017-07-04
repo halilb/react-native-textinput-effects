@@ -1,10 +1,5 @@
 import React, { Component } from 'react';
-import {
-  ScrollView,
-  StyleSheet,
-  Text,
-  View,
-} from 'react-native';
+import { ScrollView, StyleSheet, Text, View } from 'react-native';
 
 import FontAwesomeIcon from 'react-native-vector-icons/FontAwesome';
 
@@ -23,7 +18,6 @@ import {
 } from 'react-native-textinput-effects';
 
 export default class TextInputEffectsExample extends Component {
-
   render() {
     return (
       <ScrollView
@@ -32,11 +26,7 @@ export default class TextInputEffectsExample extends Component {
       >
         <View style={[styles.card1, { backgroundColor: '#F9F7F6' }]}>
           <Text style={styles.title}>Kaede</Text>
-          <Kaede
-            label={'Website'}
-            defaultValue={'Github'}
-            editable={false}
-          />
+          <Kaede label={'Website'} defaultValue={'Github'} editable={false} />
           <Kaede
             style={styles.input}
             label={'Number'}
@@ -67,11 +57,7 @@ export default class TextInputEffectsExample extends Component {
         </View>
         <View style={[styles.card1, { backgroundColor: '#F9F7F6' }]}>
           <Text style={styles.title}>Hoshi</Text>
-          <Hoshi
-            label={'Town'}
-            borderColor={'#b76c94'}
-            maskColor={'#F9F7F6'}
-          />
+          <Hoshi label={'Town'} borderColor={'#b76c94'} maskColor={'#F9F7F6'} />
           <Hoshi
             style={styles.input}
             label={'Street'}
@@ -82,13 +68,13 @@ export default class TextInputEffectsExample extends Component {
         <View style={[styles.card1, { backgroundColor: '#dee0e0' }]}>
           <Text style={styles.title}>Jiro</Text>
           <Jiro
-            label={'Dog\'s name'}
+            label={"Dog's name"}
             borderColor={'#9b537a'}
             inputStyle={{ color: 'white' }}
           />
           <Jiro
             style={styles.input}
-            label={'Cat\'s name'}
+            label={"Cat's name"}
             borderColor={'#f7c665'}
             inputStyle={{ color: 'white' }}
           />
