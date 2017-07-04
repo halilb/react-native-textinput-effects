@@ -102,6 +102,7 @@ export default class TextInputEffectsExample extends Component {
             iconClass={FontAwesomeIcon}
             iconName={'university'}
             iconColor={'#f95a25'}
+            iconSize={15}
           />
           <Fumi
             style={styles.input}
@@ -164,6 +165,7 @@ export default class TextInputEffectsExample extends Component {
             iconColor={'white'}
             iconBackgroundColor={'#f2a59d'}
             inputStyle={{ color: '#464949' }}
+            iconSize={30}
           />
           <Hideo
             style={styles.input}
@@ -182,7 +184,8 @@ export default class TextInputEffectsExample extends Component {
             iconClass={FontAwesomeIcon}
             iconName={'bus'}
             iconColor={'#f4d29a'}
-            labelStyle={{ color: '#91627b' }}
+            iconSize={40}
+            labelStyle={{ marginTop: 8, color: '#91627b' }}
             inputStyle={{ color: '#91627b' }}
           />
           <Kohana
@@ -203,6 +206,7 @@ export default class TextInputEffectsExample extends Component {
             iconClass={FontAwesomeIcon}
             iconName={'heart'}
             iconColor={'white'}
+            iconSize={35}
             inputStyle={{ color: '#db786d' }}
           />
           <Makiko

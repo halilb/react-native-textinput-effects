@@ -41,7 +41,8 @@ This component needs `Icon` component from `react-native-vector-icons` to operat
 |---|---|---|
 |**`iconClass`**|Object|The Icon component class you've imported from react-native-vector-icons.|
 |**`iconName`**|String|Name of the icon that is passed to Icon component.|
-|**`iconColor`**|String|Applied to the container of the label view.|
+|**`iconColor`**|String|Applied to the Icon component.|
+|**`iconSize`**|Number|Applied to the Icon component.|
 
 
 ## Example
@@ -95,6 +96,7 @@ const fumiInput = (
     iconClass={FontAwesomeIcon}
     iconName={'university'}
     iconColor={'#f95a25'}
+    iconSize={20}
   />
 );
 ```
