@@ -104,6 +104,7 @@ const fumiInput = (
 
 ![](screenshots/kohana.gif)
 
+Kohana supports [Animated Native Driver](https://facebook.github.io/react-native/docs/animations.html#using-the-native-driver). You can use native driver by passing `useNativeDriver`.
 
 ```js
 import MaterialsIcon from 'react-native-vector-icons/MaterialIcons';
@@ -118,7 +119,7 @@ const kohanaInput = (
     iconColor={'#f4d29a'}
     labelStyle={{ color: '#91627b' }}
     inputStyle={{ color: '#91627b' }}
-    useNativeDriver={true}
+    useNativeDriver
   />
 );
 ```

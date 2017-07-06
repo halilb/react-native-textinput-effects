@@ -173,6 +173,7 @@ export default class TextInputEffectsExample extends Component {
             iconSize={40}
             labelStyle={{ marginTop: 8, color: '#91627b' }}
             inputStyle={{ color: '#91627b' }}
+            useNativeDriver
           />
           <Kohana
             style={[styles.input, { backgroundColor: '#f9f5ed' }]}
@@ -183,6 +184,7 @@ export default class TextInputEffectsExample extends Component {
             iconColor={'#f4d29a'}
             labelStyle={{ color: '#91627b' }}
             inputStyle={{ color: '#91627b' }}
+            useNativeDriver
           />
         </View>
         <View style={[styles.card2, { backgroundColor: '#d0efe0' }]}>
