@@ -118,6 +118,7 @@ const kohanaInput = (
     iconColor={'#f4d29a'}
     labelStyle={{ color: '#91627b' }}
     inputStyle={{ color: '#91627b' }}
+    useNativeDriver={true}
   />
 );
 ```
