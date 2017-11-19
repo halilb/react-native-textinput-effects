@@ -6,9 +6,9 @@
     "start": "node node_modules/react-native/local-cli/cli.js start"
   },
   "dependencies": {
-    "react": "16.0.0-alpha.6",
-    "react-native": "0.44.0",
+    "react": "16.0.0",
+    "react-native": "0.50.0",
     "react-native-textinput-effects": "file:../",
-    "react-native-vector-icons": "4.2.0"
+    "react-native-vector-icons": "4.4.2"
   }
 }
