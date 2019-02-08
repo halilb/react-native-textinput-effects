@@ -74,6 +74,8 @@ const saeInput = (
     iconClass={FontAwesomeIcon}
     iconName={'pencil'}
     iconColor={'white'}
+    inputPadding={16}
+    labelHeight={24}
     // active border height
     borderHeight={2}
     // TextInput props
@@ -99,6 +101,8 @@ const fumiInput = (
     iconName={'university'}
     iconColor={'#f95a25'}
     iconSize={20}
+    iconWidth={40}
+    inputPadding={16}
   />
 );
 ```
@@ -119,6 +123,7 @@ const kohanaInput = (
     iconClass={MaterialsIcon}
     iconName={'directions-bus'}
     iconColor={'#f4d29a'}
+    inputPadding={16}
     labelStyle={{ color: '#91627b' }}
     inputStyle={{ color: '#91627b' }}
     labelContainerStyle={{ padding: 20 }}
@@ -143,6 +148,7 @@ const makikoInput = (
     iconClass={FontAwesomeIcon}
     iconName={'comment'}
     iconColor={'white'}
+    inputPadding={16}
     inputStyle={{ color: '#db786d' }}
   />
 );
@@ -164,6 +170,8 @@ const isaoInput = (
     activeColor={'#da7071'}
     // active border height
     borderHeight={8}
+    inputPadding={16}
+    labelHeight={24}
     // this is applied as passive border and label color
     passiveColor={'#dadada'}
   />
@@ -185,6 +193,7 @@ const hoshiInput = (
     borderColor={'#b76c94'}
     // active border height
     borderHeight={3}
+    inputPadding={16}
     // this is used to set backgroundColor of label mask.
     // please pass the backgroundColor of your TextInput container.
     backgroundColor={'#F9F7F6'}
@@ -205,6 +214,7 @@ const jiroInput = (
     label={'Dog\'s name'}
     // this is used as active and passive border color
     borderColor={'#9b537a'}
+    inputPadding={16}
     inputStyle={{ color: 'white' }}
   />
 );
@@ -221,6 +231,7 @@ import { Kaede } from 'react-native-textinput-effects';
 const kaedeInput = (
   <Kaede
     label={'Website'}
+    inputPadding={16}
   />
 );
 ```
@@ -238,6 +249,8 @@ const akiraInput = (
     label={'First Name'}
     // this is used as active and passive border color
     borderColor={'#a5d1cc'}
+    inputPadding={16}
+    labelHeight={24}
     labelStyle={{ color: '#ac83c4' }}
   />
 );
@@ -256,6 +269,8 @@ const madokaInput = (
     label={'Frequency'}
     // this is used as active and passive border color
     borderColor={'#aee2c9'}
+    inputPadding={16}
+    labelHeight={24}
     labelStyle={{ color: '#008445' }}
     inputStyle={{ color: '#f4a197' }}
   />
