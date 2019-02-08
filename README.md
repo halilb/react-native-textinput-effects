@@ -74,6 +74,8 @@ const saeInput = (
     iconClass={FontAwesomeIcon}
     iconName={'pencil'}
     iconColor={'white'}
+    // active border height
+    borderHeight={2}
     // TextInput props
     autoCapitalize={'none'}
     autoCorrect={false}
@@ -158,6 +160,8 @@ const isaoInput = (
     label={'First Name'}
     // this is applied as active border and label color
     activeColor={'#da7071'}
+    // active border height
+    borderHeight={8}
     // this is applied as passive border and label color
     passiveColor={'#dadada'}
   />
@@ -177,6 +181,8 @@ const hoshiInput = (
     label={'Town'}
     // this is used as active border color
     borderColor={'#b76c94'}
+    // active border height
+    borderHeight={3}
     // this is used to set backgroundColor of label mask.
     // please pass the backgroundColor of your TextInput container.
     backgroundColor={'#F9F7F6'}
