@@ -6,8 +6,15 @@ There is also a native iOS library called [TextFieldEffects](https://github.com/
 
 ![](screenshots/full.gif)
 
-## Installation 
+## Installation
+
+The latest version of this project needs **react-native >= 0.55(March 2018 release)** due to **createRef** usage. Go with the latest version:
+
 `$ npm install react-native-textinput-effects --save`
+
+You can stick with version 0.4 if you have an older react-native version:
+
+`$ npm install react-native-textinput-effects@0.4.2 --save`
 
 You also need to install [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons) if you'd like to use a TextInputEffect component with an icon. Please check out [Installation section](https://github.com/oblador/react-native-vector-icons#installation) on that project.
 
