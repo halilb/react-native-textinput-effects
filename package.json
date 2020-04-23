@@ -16,6 +16,7 @@
     "android"
   ],
   "main": "lib/index.js",
+  "types": "types/types.d.ts",
   "scripts": {},
   "repository": {
     "type": "git",
