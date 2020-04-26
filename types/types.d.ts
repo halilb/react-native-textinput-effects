@@ -1,11 +1,11 @@
-declare module 'react-native-textinput-effects' {
+declare module "react-native-textinput-effects" {
   import {
     TextInputProps,
     ViewStyle,
     StyleProp,
     TextStyle,
     EasingFunction,
-  } from 'react-native';
+  } from "react-native";
 
   class BaseClass<T extends CommonProps> extends React.Component<T> {
     inputRef(): TextInputProps;
@@ -47,7 +47,7 @@ declare module 'react-native-textinput-effects' {
     iconSize?: number;
   }
 
-  export interface AkiraProps extends WithIconProps {
+  export interface AkiraProps extends CommonProps {
     borderColor?: string;
     labelHeight?: number;
   }
@@ -117,6 +117,7 @@ declare module 'react-native-textinput-effects' {
   class Makiko extends BaseClass<MakikoProps> {}
 
   export interface SaeProps extends WithIconProps {
+    iconName?: string;
     labelHeight?: number;
     borderHeight?: number;
   }
