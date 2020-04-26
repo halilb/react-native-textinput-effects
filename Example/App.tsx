@@ -8,9 +8,7 @@
  * @format
  */
 
-declare const global: { HermesInternal: null | {} };
-
-import React, { Component } from "react";
+import React from "react";
 import { ScrollView, StyleSheet, Text, View } from "react-native";
 
 import FontAwesomeIcon from "react-native-vector-icons/FontAwesome";
