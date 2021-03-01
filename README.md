@@ -6,6 +6,10 @@ There is also a native iOS library called [TextFieldEffects](https://github.com/
 
 ![](screenshots/full.gif)
 
+## Blog Post
+
+I've recently written a blog post about [Creating an Animated TextField with React Native](https://bilir.me/blog/creating-an-animated-textfield-with-react-native). While it isn't directly related to this library, I think you might still find it useful to understand the basics of creating an animated text input with `React Native Animated` library.
+
 ## Installation
 
 The latest version of this project needs **react-native >= 0.55(March 2018 release)** due to **createRef** usage. Go with the latest version:
